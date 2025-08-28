@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    
+
     <div class="container">
         <div class="row">
             <div class="col-12 text-center text-white">
@@ -25,21 +25,21 @@
         <div class="row">
             <div class="col-4 text-white text-center m-1"> Plural Noun
             </div>
-            <div class="col-7 bg primary m-1"> <input class="form-control" id="Plural Noun" name="Plural Noun">
+            <div class="col-7 bg primary m-1"> <input class="form-control" id="PluralNoun" name="Plural Noun">
             </div>
         </div>
 
         <div class="row">
             <div class="col-4  text-white text-center m-1"> Noun 1
             </div>
-            <div class="col-7 bg primary m-1"> <input class="form-control" id="Noun 1" name="noun 1">
+            <div class="col-7 bg primary m-1"> <input class="form-control" id="Noun1" name="noun 1">
             </div>
         </div>
 
         <div class="row">
             <div class="col-4  text-white text-center m-1"> Noun 2
             </div>
-            <div class="col-7 bg primary m-1"> <input class="form-control" id="Noun 2" name="noun 2">
+            <div class="col-7 bg primary m-1"> <input class="form-control" id="Noun2" name="noun 2">
             </div>
         </div>
 
@@ -62,9 +62,21 @@
         <br>
         <br>
         <br>
-        <div class="d-flex justify-content-end">
-            <button type="button" class="btn btn-danger">Next</button>
+        <div class="d-flex justify-content-center ">
+            <button id="resetButton" type="button" class="btn btn-danger m-1">Reset</button>
+            <button id="submitButton" type="button" class="btn btn-danger m-1">Submit</button>
         </div>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-12 text-center text-white p-3 border rounded" id="madLibStory">
+                <p class="lead" id="storyOutput"></p>
+            </div>
+        </div>
+
+        <script src="helpers.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

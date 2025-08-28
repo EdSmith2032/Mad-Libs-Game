@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme":"Abyss",
+    "editor.minimap.enabled": true,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "workbench.editor.labelFormat": "short"
+}
